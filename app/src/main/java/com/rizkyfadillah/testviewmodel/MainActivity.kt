@@ -27,18 +27,16 @@ class MainActivity : AppCompatActivity() {
     private fun showData(data: List<Item>) {
         recyclerView.withModels {
             data.mapIndexed { _, item ->
-                if (item is Model) {
-                    customView {
+                when (item) {
+                    is Model -> customView {
                         id(item.id)
                         model(item)
                     }
-                } else if (item is Model1) {
-                    customViewHolder {
+                    is Model1 -> customViewHolder {
                         id(item.id)
                         model1(item)
                     }
-                } else if (item is LoadMoreModel) {
-                    loaderView {
+                    is LoadMoreModel -> loaderView {
                         id("loader")
                         onBind { _, _, _ ->
                             viewModel.loadMore(data)
