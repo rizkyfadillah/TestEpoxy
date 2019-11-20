@@ -30,7 +30,7 @@ jobs:
           name: Build APK
           command: ./gradlew assembleDebug
       - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
-          path: app/build/outputs/apk/debug/TestEpoxy-debug.apk
+          path: app/build/outputs/apk/debug/app-debug.apk
           destination: TestEpoxy.apk
       - store_artifacts: # for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
           path: app/build/reports
