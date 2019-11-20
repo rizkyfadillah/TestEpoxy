@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:163767972111:android:c1fc2fdc81b70f313d8e7a",
+        "mobilesdk_app_id": "1:163767972111:android:0c533ca19a485c5a3d8e7a",
         "android_client_info": {
-          "package_name": "com.rizkyfadillah.testviewmodel"
+          "package_name": "com.rizkyfadillah.testepoxy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "163767972111-4kk17d0hldflc7q0ctmvjecvn4ahirpb.apps.googleusercontent.com",
+          "client_id": "163767972111-bj7n6qpcpf23q6mt749j51l0nrv8sij1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.rizkyfadillah.testviewmodel",
+            "package_name": "com.rizkyfadillah.testepoxy",
             "certificate_hash": "3c39218ca082cbc8a0a857c478b1f6e5d7807e74"
           }
         },

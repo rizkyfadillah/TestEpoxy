@@ -38,6 +38,8 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+
     def lifecycle_version = "2.1.0"
 
     // ViewModel and LiveData
@@ -47,3 +49,5 @@ dependencies {
     // Add the annotation processor if you are using Epoxy's annotations (recommended)
     kapt 'com.airbnb.android:epoxy-processor:3.8.0'
 }
+
+apply plugin: 'com.google.gms.google-services'
