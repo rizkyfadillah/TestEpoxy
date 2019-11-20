@@ -1,4 +1,4 @@
-package com.rizkyfadillah.testviewmodel
+package com.rizkyfadillah.testepoxy
 
 import org.junit.Test
 

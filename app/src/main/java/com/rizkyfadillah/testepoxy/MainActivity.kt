@@ -1,4 +1,4 @@
-package com.rizkyfadillah.testviewmodel
+package com.rizkyfadillah.testepoxy
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

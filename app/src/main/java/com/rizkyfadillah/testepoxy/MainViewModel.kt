@@ -1,4 +1,4 @@
-package com.rizkyfadillah.testviewmodel
+package com.rizkyfadillah.testepoxy
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

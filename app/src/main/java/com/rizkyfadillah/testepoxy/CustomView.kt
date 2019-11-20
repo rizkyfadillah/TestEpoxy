@@ -1,4 +1,4 @@
-package com.rizkyfadillah.testviewmodel
+package com.rizkyfadillah.testepoxy
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,7 +7,6 @@ import android.widget.TextView
 import com.airbnb.epoxy.AfterPropsSet
 import com.airbnb.epoxy.ModelProp
 import com.airbnb.epoxy.ModelView
-import com.airbnb.epoxy.TextProp
 
 @ModelView(autoLayout = ModelView.Size.MATCH_WIDTH_WRAP_HEIGHT)
 class CustomView @JvmOverloads constructor(
